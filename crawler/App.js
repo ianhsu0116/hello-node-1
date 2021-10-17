@@ -1,7 +1,8 @@
-const axios = require("axios");
+import axios from "axios";
+import moment from "moment";
 
 let stockCode = "0050";
-let today = "20211017";
+let today = moment().format("YYYYMMDD");
 let format = "json";
 
 // "https://www.twse.com.tw/exchangeReport/STOCK_DAY?response=" + format + "&date=" + today + "&stockNo=" + stockCode
