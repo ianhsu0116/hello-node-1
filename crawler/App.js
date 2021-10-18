@@ -1,5 +1,5 @@
-import axios from "axios";
-import moment from "moment";
+const axios = require("axios");
+const moment = require("moment");
 
 let stockCode = "0050";
 let today = moment().format("YYYYMMDD");
